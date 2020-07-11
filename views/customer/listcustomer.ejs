@@ -1,0 +1,49 @@
+<%- include ../layouts/header.ejs %>
+
+<% if (messages.error) { %>
+    <p style="color:red"><%- messages.error %></p>
+<% } %>
+
+<% if (messages.success) { %>
+    <p style="color:green"><%- messages.success %></p>
+<% } %>
+<a class="btn btn-info" href='/customer/add'>Tambah</a> <br><br>
+
+<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+        <th>PO Number</th>
+        <th>Price</th>
+        <th>Deliverables</th>
+        <th>Aksi</th>
+
+    </tr>
+  </thead>
+
+    <% if (data) { %>
+    <% data.forEach(function(customer){ %>
+        <tr>
+            <td><%= customer.customerPo %></td>
+            <td><%= customer.price %></td>
+            <td><%= customer.deliverablesType %></td>
+            
+            <td>
+                <div style="float:left">
+                    <a class="btn btn-warning" href='/customer/edit/<%= customer._id %>'>Edit</a> &nbsp;
+                    <form method="post" action="/customer/delete/<%= customer._id %>" style="float:right">
+                        <input class="btn btn-danger" type="submit" name="delete" value='Delete' onClick="return confirm('Are you sure you want to delete?')" />
+                        <input type="hidden" name="_method" value="DELETE" />
+                    </form>
+                   
+                </div>
+            </td>
+        </tr>
+    <% }) %>
+    <% } %>
+
+</table>
+
+<!--
+including footer content which is common for all pages
+-->
+<%- include ../layouts/footer.ejs %>
