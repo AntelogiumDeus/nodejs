@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "5f0956517cb51a571cd753e2"
+  },
+  "deliverablesId": "D000001",
+  "customerPo": "111111",
+  "siteId": "S001",
+  "siteName": "Site A",
+  "deliverablesType": "Upgrade",
+  "installationStart": {
+    "$date": "2020-07-15T17:00:00Z"
+  },
+  "installationFinish": {
+    "$date": "2020-07-15T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f09573b47b113191ccca3e9"
+  },
+  "deliverablesId": "D000002",
+  "customerPo": "111112",
+  "siteId": "S002",
+  "siteName": "Site B",
+  "deliverablesType": "New Site",
+  "installationStart": {
+    "$date": "2020-07-15T17:00:00Z"
+  },
+  "installationFinish": {
+    "$date": "2020-07-15T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f09576d47b113191ccca3ea"
+  },
+  "deliverablesId": "D000003",
+  "customerPo": "111113",
+  "siteId": "S003",
+  "siteName": "Site C",
+  "deliverablesType": "New Site",
+  "installationStart": {
+    "$date": "2020-07-20T17:00:00Z"
+  },
+  "installationFinish": {
+    "$date": "2020-07-20T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f0957c647b113191ccca3eb"
+  },
+  "deliverablesId": "D000004",
+  "customerPo": "111114",
+  "siteId": "S004",
+  "siteName": "Site D",
+  "deliverablesType": "Upgrade",
+  "installationStart": {
+    "$date": "2020-07-18T17:00:00Z"
+  },
+  "installationFinish": {
+    "$date": "2020-07-18T17:00:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5f0957e347b113191ccca3ec"
+  },
+  "deliverablesId": "D000005",
+  "customerPo": "111115",
+  "siteId": "S005",
+  "siteName": "Site E",
+  "deliverablesType": "Upgrade",
+  "installationStart": {
+    "$date": "2020-07-16T17:00:00Z"
+  },
+  "installationFinish": {
+    "$date": "2020-07-16T17:00:00Z"
+  }
+}]

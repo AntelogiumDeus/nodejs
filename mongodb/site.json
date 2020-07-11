@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "5f0928757cb51a571cd753e1"
+  },
+  "siteId": "S001",
+  "siteName": "Site A",
+  "siteAddress": "Jakarta"
+},{
+  "_id": {
+    "$oid": "5f09594547b113191ccca3ed"
+  },
+  "siteId": "S002",
+  "siteName": "Site B",
+  "siteAddress": "Bandung"
+},{
+  "_id": {
+    "$oid": "5f09595a47b113191ccca3ee"
+  },
+  "siteId": "S003",
+  "siteName": "Site C",
+  "siteAddress": "Surabaya"
+},{
+  "_id": {
+    "$oid": "5f09596747b113191ccca3ef"
+  },
+  "siteId": "S004",
+  "siteName": "Site D",
+  "siteAddress": "Medan"
+},{
+  "_id": {
+    "$oid": "5f09597647b113191ccca3f0"
+  },
+  "siteId": "S005",
+  "siteName": "Site E",
+  "siteAddress": "Makassar"
+}]
